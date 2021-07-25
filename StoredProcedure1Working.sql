@@ -1,0 +1,3 @@
+USE gameshow;
+
+CALL SelectAllQuestions();

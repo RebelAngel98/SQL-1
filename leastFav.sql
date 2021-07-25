@@ -1,0 +1,2 @@
+SELECT least_favorite_characters.firstName_LeastFavorite, least_favorite_characters.lastName_LeastFavorite, published_books.bookTitle FROM least_favorite_characters
+join published_books on least_favorite_characters.FK_published_books = published_books.idpublishedBooks;
